@@ -1,0 +1,6 @@
+.header {
+    color: #ec1818;
+}
+.header:global(.active) {
+    color: #bb10e5;
+}

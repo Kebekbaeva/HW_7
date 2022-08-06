@@ -1,0 +1,7 @@
+.footer {
+    color: blue;
+}
+
+.footer:global(.active) {
+    color: #37ff00;
+}
