@@ -2,7 +2,12 @@ import React from 'react';
 
 function FooterPage(props) {
     return (
-        <div></div>
+        <div>
+            <input type="text" placeholder="name"/>
+            <input type="text" placeholder="username"/>
+            <input type="text" placeholder="age"/>
+            <button>add</button>
+        </div>
     );
 }
 
