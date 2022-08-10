@@ -18,10 +18,12 @@ function HeaderPage(props) {
     return (
         <div>
             <ul>
-                {posts.slice(1, 10).map(post => <li key={post.id}>{post.title}</li>)}
+                {posts.slice(0, 10).map(post => <li key={post.id}>{post.title}</li>)}
             </ul>
         </div>
     );
 }
 
+// useSelector()
+// useDispatch()
 export default HeaderPage;

@@ -1,8 +1,8 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import classes from "./info.module.css"
+import classes from "../info/info.module.css"
 
-function Info() {
+function InfoFooter() {
     return (
         <div className={classes.footer}>
                 <li>
@@ -21,5 +21,4 @@ function Info() {
     );
 }
 
-export default Info;
-
+export default InfoFooter;

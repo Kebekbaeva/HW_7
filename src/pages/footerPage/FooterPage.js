@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FooterPage(props) {
+function FooterPage() {
     return (
         <div>
             <input type="text" placeholder="name"/>

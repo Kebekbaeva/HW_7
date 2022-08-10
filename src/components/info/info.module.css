@@ -1,10 +1,15 @@
 .info {
     color: red;
-    font-size: 30px;
+    font-size: 24px;
     font-family: cursive;
     text-decoration: none;
 }
 
 .info:global(.active){
     color: blueviolet;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
 }
